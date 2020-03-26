@@ -1,0 +1,11 @@
+#buttonLamp {
+	margin-top: 300px;
+}
+
+.apagado {
+	background-color: black;
+}
+
+.aceso {
+	background-color: white;
+}

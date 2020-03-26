@@ -1,0 +1,11 @@
+-- CRIANDO BANCO DE DADOS
+CREATE DATABASE `db_lamp`;
+
+-- CRIANDO TABELA DO BANCO DE DADOS
+CREATE TABLE `tb_status` (
+	`id_lamp` INT AUTO_INCREMENT PRIMARY KEY,
+	`status` VARCHAR(5) NOT NULL
+);
+
+-- INSIRA ESTE COMANDO NO SQL
+INSERT INTO `tb_status` (`id_lamp` ,`status`) VALUES ('1', '0');
